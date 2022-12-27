@@ -60,6 +60,10 @@
 				a {
 					font-size: 15px;
 					color: $black;
+
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 		}
@@ -73,6 +77,10 @@
 				a {
 					font-size: 11px;
 					color: $grey;
+
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 		}
@@ -83,6 +91,11 @@
 		font-size: 11px;
 		text-align: center;
 		color: $darkSkyBLue;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	&__societies {
@@ -101,6 +114,15 @@
 		justify-content: center;
 		align-items: center;
 		margin: 3px;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		&:active {
+			transform: scale(0.95);
+		}
 	}
 
 	&__shops {
@@ -109,6 +131,7 @@
 
 		img {
 			width: 100%;
+			cursor: pointer;
 		}
 	}
 }

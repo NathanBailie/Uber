@@ -14,10 +14,10 @@
 	.container {
 		max-width: 720px;
 	}
+
 	.button {
 		&:hover {
-			transform: none;
-			box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+			box-shadow: none;
 		}
 	}
 }

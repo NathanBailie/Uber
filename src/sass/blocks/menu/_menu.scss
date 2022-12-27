@@ -19,6 +19,7 @@
 		padding-left: 0;
 		text-align: center;
 		margin-bottom: 0;
+		user-select: none;
 
 		a {
 			font-weight: 300;
@@ -47,12 +48,15 @@
 		top: 50%;
 		transform: translateY(-50%);
 		width: 26px;
+		user-select: none;
+		cursor: pointer;
 
 		span {
 			display: block;
 			width: 100%;
 			height: 2px;
 			background: $white;
+			transition: all 0.5s linear;
 
 			&:not(:last-child) {
 				margin-bottom: 4px;
@@ -63,38 +67,36 @@
 			top: 55%;
 
 			span {
-				transition: all 1s;
+				transition: all 0.5s linear;
 				transform: scale(1.1);
 				background: rgb(243, 181, 140);
 
 				&:nth-child(1) {
 					// цельный треугольник
 					transform: rotate(58deg) translate(5px, -4.5px);
-
-					// transform: translate(4px, -3px);
-					// transform: rotate(10deg);
 					height: 3px;
 
-					// transform: translateY(3px) rotate(-45deg);
+					// что-то типа вытаскиваемой книжки
+					// transform: translate(4px, -3px);
+					// transform: rotate(10deg);
 				}
 
 				&:nth-child(2) {
 					// цельный треугольник
 					transform: rotate(-58deg) translate(1px, -8px);
-
-
-					// transform: translateX(-4px);
 					height: 3px;
 
-					// display: none;
+
+					// что-то типа вытаскиваемой книжки
+					// transform: translateX(-4px);
 				}
 
 				&:nth-child(3) {
-					// transform: translate(4px, 3px);
-					// transform: rotate(-10deg);
 					height: 3px;
 
-					// transform: translateY(3px) rotate(45deg);
+					// что-то типа вытаскиваемой книжки
+					// transform: translate(4px, 3px);
+					// transform: rotate(-10deg);
 				}
 			}
 		}
