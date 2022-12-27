@@ -10,6 +10,7 @@
 		color: $black;
 		margin-bottom: 30px;
 	}
+
 	&__wrapper {
 		display: grid;
 		grid-template: repeat(auto-fill, minmax(280px, auto)) / repeat(auto-fill, minmax(auto, 320px));
@@ -46,7 +47,6 @@
 		&:nth-child(6) {
 			background: url('../img/cards/card6.png') center center / cover no-repeat;
 		}
-
 	}
 
 	&__text {
@@ -68,19 +68,20 @@
 		transform: translateX(-50%);
 		bottom: 34px;
 		background: $black;
-		
+
 		span {
 			background: $skyBLue;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-			
-			
+
+
 			&:nth-child(1) {
 				width: 14px;
 				height: 2px;
 			}
+
 			&:nth-child(2) {
 				width: 2px;
 				height: 14px;

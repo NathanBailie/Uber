@@ -2,14 +2,11 @@
 	height: 50px;
 	background: $black;
 	padding: 0px 20px;
-	// position: relative;\
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 10;
-	// display: flex;
-	// align-items: center;
 
 	&__links {
 		width: 100%;
@@ -29,7 +26,6 @@
 			line-height: 20px;
 			color: $white;
 			text-decoration: none;
-			// padding: 10px 15px;
 		}
 	}
 
@@ -38,9 +34,6 @@
 		justify-content: center;
 		align-items: center;
 
-		// &:not(:last-child) {
-		// 	margin-right: 15px;
-		// }
 		&:hover {
 			text-decoration: underline;
 		}
@@ -55,7 +48,6 @@
 		transform: translateY(-50%);
 		width: 26px;
 
-		// height: 12px;
 		span {
 			display: block;
 			width: 100%;

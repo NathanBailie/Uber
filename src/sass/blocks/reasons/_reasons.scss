@@ -9,6 +9,7 @@
 	&__title {
 		margin-bottom: 16px;
 	}
+
 	&__subtitle {
 		text-align: left;
 		margin-bottom: 10px;
@@ -16,7 +17,7 @@
 
 	&__wrapper {
 		display: grid;
-		grid-template: repeat(auto-fill,minmax(150px,auto))/repeat(auto-fill,minmax(auto,calc(370px + 25px + 116px)));
+		grid-template: repeat(auto-fill, minmax(150px, auto))/repeat(auto-fill, minmax(auto, calc(370px + 25px + 116px)));
 		gap: 40px 70px;
 		justify-content: center;
 	}
@@ -40,7 +41,6 @@
 		img {
 			max-width: 85px;
 			max-height: 80px;
-			// object-fit: cover;
 		}
 	}
 

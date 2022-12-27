@@ -82,6 +82,7 @@
 	.company {
 		min-height: 400px;
 		padding: 100px 15px 34px;
+
 		&__title {
 			font-size: 30px;
 			line-height: 35px;
@@ -95,14 +96,13 @@
 		}
 
 		&__descrWrapper {
-		display: none;
+			display: none;
 		}
 
 		&__button {
 			max-width: 220px;
 			max-height: 50px;
 			font-size: 16px;
-			// line-height: 50px;
 		}
 	}
 }
