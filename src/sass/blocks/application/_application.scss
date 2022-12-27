@@ -1,0 +1,90 @@
+.application {
+	min-height: 860px;
+	padding: 46px 20px 80px;
+
+	&__label {
+		margin-bottom: 32px;
+	}
+
+	&__subtitle {
+		color: $black;
+		margin-bottom: 30px;
+	}
+	&__wrapper {
+		display: grid;
+		grid-template: repeat(auto-fill, minmax(280px, auto)) / repeat(auto-fill, minmax(auto, 320px));
+		gap: 20px 70px;
+		justify-content: center;
+	}
+
+	&__card {
+		position: relative;
+		max-width: 320px;
+		min-height: 280px;
+		padding: 90px 15px 34px;
+
+		&:nth-child(1) {
+			background: url('../img/cards/card1.png') center center / cover no-repeat;
+		}
+
+		&:nth-child(2) {
+			background: url('../img/cards/card2.png') center center / cover no-repeat;
+		}
+
+		&:nth-child(3) {
+			background: url('../img/cards/card3.png') center center / cover no-repeat;
+		}
+
+		&:nth-child(4) {
+			background: url('../img/cards/card4.png') center center / cover no-repeat;
+		}
+
+		&:nth-child(5) {
+			background: url('../img/cards/card5.png') center center / cover no-repeat;
+		}
+
+		&:nth-child(6) {
+			background: url('../img/cards/card6.png') center center / cover no-repeat;
+		}
+
+	}
+
+	&__text {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 31px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+	}
+
+	&__plus {
+		width: 29px;
+		height: 29px;
+		border-radius: 50px;
+		background: $white;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 34px;
+		background: $black;
+		
+		span {
+			background: $skyBLue;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			
+			
+			&:nth-child(1) {
+				width: 14px;
+				height: 2px;
+			}
+			&:nth-child(2) {
+				width: 2px;
+				height: 14px;
+			}
+		}
+	}
+}

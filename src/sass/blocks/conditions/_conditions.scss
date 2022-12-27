@@ -1,0 +1,99 @@
+.conditions {
+	min-height: 920px;
+	padding: 65px 20px 85px;
+
+	&__label {
+		margin-bottom: 27px;
+	}
+
+	&__title {
+		margin-bottom: 35px;
+	}
+
+	&__subtitle {
+		text-align: left;
+		margin-bottom: 20px;
+		font-size: 22px;
+		line-height: 24px;
+		color: $skyBLue;
+	}
+
+	&__wrapper1,
+	&__wrapper2 {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		flex-wrap: wrap;
+
+		ul {
+			padding: 0;
+			list-style-type: none;
+
+			li {
+				font-size: 17px;
+				line-height: 24px;
+				align-items: center;
+				margin-left: 50px;
+				color: $black;
+				position: relative;
+				&:not(:last-child) {
+					margin-bottom: 5px;
+				}
+
+				&:before {
+					content: url('../../../icons/check_blue.png');
+					display: block;
+					width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					position: absolute;
+					left: -39px;
+					top: 1px;
+				}
+			}
+		}
+	}
+
+	&__wrapper1 {
+		margin-bottom: 60px;
+
+		ul {
+			li {
+				&:before {
+					content: url('../../../icons/check_blue.png');
+				}
+
+			}
+		}
+	}
+
+	&__wrapper2 {
+		.subtitle {
+			color: $red;
+		}
+
+		ul {
+			li {
+				&:before {
+					content: url('../../../icons/check_red.png');
+				}
+			}
+		}
+	}
+
+	&__text {
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 24px;
+		color: $skyBLue;
+		margin-top: 25px;
+	}
+
+	&__block {
+		width: 465px;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+}

@@ -1,0 +1,108 @@
+@media (max-width: 1439px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+
+	.company {
+		&__title {
+			font-size: 43px;
+		}
+
+		&__subtitle {
+			font-size: 30px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+
+	.company {
+		&__title {
+			font-size: 32px;
+		}
+
+		&__subtitle {
+			font-size: 27px;
+		}
+
+		&__descr {
+			font-size: 17px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		max-width: auto;
+	}
+
+	.company {
+		&__title {
+			font-size: 32px;
+			line-height: 31px;
+		}
+
+		&__subtitle {
+			font-size: 22px;
+		}
+
+		&__descr {
+			font-size: 16px;
+		}
+
+		&__button {
+			max-width: 217px;
+			max-height: 50px;
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.company {
+		min-height: 400px;
+		padding: 100px 15px 34px;
+		&__title {
+			font-size: 30px;
+			line-height: 35px;
+			margin-bottom: 35px;
+		}
+
+		&__subtitle {
+			font-size: 20px;
+			line-height: 23px;
+			margin-bottom: 75px;
+		}
+
+		&__descrWrapper {
+		display: none;
+		}
+
+		&__button {
+			max-width: 220px;
+			max-height: 50px;
+			font-size: 16px;
+			// line-height: 50px;
+		}
+	}
+}

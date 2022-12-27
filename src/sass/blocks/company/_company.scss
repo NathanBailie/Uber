@@ -1,0 +1,65 @@
+.company {
+	// min-height: 100vh;
+	min-height: 100vh;
+	padding: 150px 20px 180px;
+	text-align: center;
+	margin: 50px auto 0;
+	background: url('../img/bg/uber_bg.png') center center / cover no-repeat;
+
+	&__title {
+		font-weight: 900;
+		font-size: 57px;
+		line-height: 37px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+		margin-bottom: 22px;
+	}
+
+	&__subtitle {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 26px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+		margin-bottom: 30px;
+	}
+
+	&__descrWrapper {
+		max-width: 1000px;
+		margin: 0 auto 115px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__descr {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+		color: $white;
+		padding: 0 20px;
+
+		&:nth-child(1) {
+			margin-bottom: 35px;
+		}
+	}
+
+	&__button {
+		max-width: 260px;
+		max-height: 60px;
+		margin: 0 auto;
+		font-size: 18px;
+		// line-height: 63px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+		padding: 24px;
+	}
+}

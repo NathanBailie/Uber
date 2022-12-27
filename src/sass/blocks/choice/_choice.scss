@@ -1,0 +1,45 @@
+.choice {
+	min-height: 800px;
+	background: linear-gradient(to bottom, $black 50%, $white 50%);
+	padding: 55px 20px 70px;
+
+	&__label {
+		color: $black;
+		background: $white;
+		margin-bottom: 25px;
+	}
+
+	&__title {
+		color: $white;
+	}
+
+	&__subtitle {
+		color: $white;
+		margin-bottom: 55px;
+	}
+
+	&__car {
+		max-width: 760px;
+		max-height: 480px;
+		margin: 0 auto;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__descr {
+		p {
+			font-weight: 300;
+			font-size: 17px;
+			line-height: 24px;
+			text-align: center;
+			color: $black;
+
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

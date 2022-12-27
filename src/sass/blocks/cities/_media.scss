@@ -1,0 +1,77 @@
+@media (max-width: 1439px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		max-width: auto;
+	}
+	.cities {
+		min-height: 600px;
+
+		&__title {
+			margin-bottom: 15px;
+			font-size: 33px;
+		}
+
+		&__link {
+		width: 85%;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.cities {
+		min-height: 360px;
+		padding: 25px 10px 30px;
+
+		&__label {
+			margin-bottom: 15px;
+		}
+
+		&__title {
+			margin-bottom: 11px;
+			font-size: 16px;
+			line-height: 16px;
+		}
+
+		&__subtitle {
+			font-size: 14px;
+			line-height: 21px;
+		}
+
+		&__link {
+		width: 85%;
+			
+			a {
+				font-size: 15px;
+				line-height: 15px;
+			}
+		}
+	}
+}

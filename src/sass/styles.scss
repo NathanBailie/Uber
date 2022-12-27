@@ -1,0 +1,47 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+
+// blocks
+@import "blocks/label/label";
+@import "blocks/titles/titles";
+@import "blocks/menu/menu";
+@import "blocks/contacts/contacts";
+@import "blocks/buttons/buttons";
+@import "blocks/company/company";
+@import "blocks/reasons/reasons";
+@import "blocks/application/application";
+@import "blocks/choice/choice";
+@import "blocks/conditions/conditions";
+@import "blocks/cities/cities";
+@import "blocks/footer/footer";
+@import "blocks/chevrons/chevrons";
+
+// Media
+@import "blocks/menu/media";
+@import "blocks/contacts/media";
+@import "blocks/buttons/media";
+@import "blocks/company/media";
+@import "blocks/reasons/media";
+@import "blocks/application/media";
+@import "blocks/choice/media";
+@import "blocks/conditions/media";
+@import "blocks/cities/media";
+@import "blocks/footer/media";
+@import "blocks/chevrons/media";

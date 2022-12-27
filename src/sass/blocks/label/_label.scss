@@ -1,0 +1,17 @@
+.label {
+	max-width: 115px;
+	max-height: 30px;
+	background: $black;
+	padding: 7px 8px;
+	margin: 0 auto;
+
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: $white;
+}

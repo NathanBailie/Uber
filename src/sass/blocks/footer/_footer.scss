@@ -1,0 +1,122 @@
+.footer {
+	min-height: 150px;
+	padding: 11px 20px 40px;
+	position: relative;
+
+	&__divider {
+		max-width: 300px;
+		height: 7px;
+		background: $darkSkyBLue;
+		margin: 0 auto 30px;
+	}
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 40px;
+	}
+
+	&__menu {
+		max-width: 410px;
+		min-height: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-transform: uppercase;
+
+		position: absolute;
+		left: 50%;
+		top: 30px;
+		transform: translateX(-50%);
+
+
+		ul {
+			list-style-type: none;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			justify-content: center;
+			align-items: center;
+			padding-left: 0;
+			margin: 0 auto;
+			text-align: center;
+
+			li {
+				padding: 0px 8px;
+
+				a {
+					text-decoration: none;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+
+	&__mainMenu {
+		margin-bottom: 13px;
+
+		ul {
+			li {
+				a {
+					font-size: 15px;
+					// line-height: 68px;
+					color: $black;
+				}
+			}
+		}
+	}
+
+	&__subMenu {
+		margin-bottom: 18px;
+
+		ul {
+			li {
+				a {
+					font-size: 11px;
+					// line-height: 68px;
+					color: $grey;
+				}
+			}
+		}
+	}
+
+	&__language {
+		font-weight: 400;
+		font-size: 11px;
+		// line-height: 68px;
+		text-align: center;
+		color: $darkSkyBLue;
+	}
+
+	&__societies {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__social {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: $black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 3px;
+		// &:not(:last-child) {
+		// 	margin-right: 6px;
+		// }
+	}
+
+	&__shops {
+		max-width: 300px;
+		max-height: 30px;
+
+		img {
+			width: 100%;
+		}
+	}
+}
