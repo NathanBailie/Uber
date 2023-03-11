@@ -11,6 +11,6 @@ This is a one page web site about Uber
 ## Tech
 * HTML
 * CSS (SCSS, flex, grid, cross-browser adaptive)
-* JavaScript
+* JavaScript (hamburger, chevron)
 * GULP
 * Done by layout of Figma
